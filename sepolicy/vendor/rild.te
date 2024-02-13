@@ -7,3 +7,5 @@ userdebug_or_eng(`
 #Allow qcrild to logging log into QXDM.
 allow rild vendor_diag_device:chr_file rw_file_perms;
 ')
+
+dontaudit rild vendor_diag_device:chr_file rw_file_perms;
