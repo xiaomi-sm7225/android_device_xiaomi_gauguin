@@ -505,7 +505,9 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi-service
+    android.hardware.wifi-service \
+    vendor.qti.hardware.wifi.hostapd@1.2.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.2.vendor
 
 PRODUCT_PACKAGES += \
     hostapd \
